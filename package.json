@@ -1,0 +1,19 @@
+{
+  "name": "shopee-api",
+  "version": "1.0.0",
+  "description": "This is the api for the shopee website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakshsethi/Shopee-Api.git"
+  },
+  "author": "dakshsethi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dakshsethi/Shopee-Api/issues"
+  },
+  "homepage": "https://github.com/dakshsethi/Shopee-Api#readme"
+}
