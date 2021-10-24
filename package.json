@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/dakshsethi/Shopee-Api/issues"
   },
-  "homepage": "https://github.com/dakshsethi/Shopee-Api#readme"
+  "homepage": "https://github.com/dakshsethi/Shopee-Api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
 }
