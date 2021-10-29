@@ -19,6 +19,11 @@ app.get('/', (req, res) => {
     res.send(['Hello World']);
 });
 
+app.get('/api/product/:id',(req, res) => {
+    const id = req.params.id;
+    res.send(id);
+})
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Listening on port ${port}...`);
