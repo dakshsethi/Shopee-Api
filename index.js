@@ -15,15 +15,25 @@ app.use(function(req, res, next) {
     next();
 });
 
+
+
+/***** API Endpoints *****/
 app.get('/', (req, res) => {
     res.send(['Hello World']);
+    res.sendStatus(404);
 });
 
 app.get('/api/product/:id',(req, res) => {
+    /*
+    This is for dynamic product id
+    */
     const id = req.params.id;
     res.send(id);
+    res.status(200);
 })
 
+
+/***** Make the API go online *****/
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Listening on port ${port}...`);
