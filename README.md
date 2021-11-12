@@ -1,6 +1,6 @@
 # Shopee-API
 This is the backend API for [Shopee Website](https://shopee-dakshsethi.vercel.app/). It has certain endpoints to request and to upload data to the Firebase Firestore through this API. Different routes will be stored in different folders.
-This is for just for learning APIs and connecting it with Google Firebase Firestore...
+This is for just for learning APIs and connecting it with Google Firebase Firestore.
 
 ## Different Routes:
 ##### /api -> Generalise Route
